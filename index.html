@@ -1,25 +1,47 @@
 <head>
+    <title>The Old Street Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    #os {
-      width: 50%;
-      margin: 0 auto;
+    body {
+	display: flex;
+	flex-direction: column;
     }
 
-    body {
-      display: grid;
+   #os {
+       display: flex;
+       max-width: 50%;
+       margin: auto;
+   }
+   @media only screen and (max-width: 600px) {
+       #os {
+	   max-width: 100%;
+      }
+      body {
+	background-color: lightblue;
+      }
     }
   </style>
-<body>
-  <marquee><h1>The Old Street Journal IS online<h1></marquee/>
-  <img id='os' src='os.png' title='odl street'/>
-  </br>
-  <h2>News!</h2>
-  <h3>2019-04-30 Subway 2 closed!</h3>
-  <p>From May 7th until 2020 Subway 2 will be closed as part of work to make the Roundabout safter for pedestrians and cyclists. SAFE!</p>
-  <h3>2019-04-29 Aiden's Flatmates move out</h3>
-  <p>
-  A pair of my flatmates are moving out. They had lots of stuff and took a lot of space, so now the house is really empty.
-  We used to use their projector, hifi, and pots - I suppose we will have to replace them or stop eating and watching tv.
-  A guy from New Zealand is moving in soon to replace them. That'll be interteresting I hope.
-  </p>
+  <body>
+    <header>
+	<marquee><h1>The Old Street Journal IS online<h1></marquee/>
+	<img id='os' src='os.png' title='odl street'/>
+    </header>
+
+    </br>
+
+    <h2>News!</h2>
+    <div id='content'>
+	<article>
+	    <h3>2019-04-30 Subway 2 closed!</h3>
+	    <p>From May 7th until 2020 Subway 2 will be closed as part of work to make the Roundabout safter for pedestrians and cyclists. SAFE!</p>
+	</article>
+	<article>
+	    <h3>2019-04-29 Aiden’s Flatmates move out</h3>
+	    <p>
+	    A pair of my flatmates are moving out. They had lots of stuff and took a lot of space, so now the house is really empty.
+	    We used to use their projector, hifi, and pots - I suppose we will have to replace them or stop eating and watching tv.
+	    A guy from New Zealand is moving in soon to replace them. That’ll be interteresting I hope.
+	    </p>
+	</article>
+    </content>
 </body>
