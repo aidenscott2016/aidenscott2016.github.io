@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.js": "/holophonor/static/js/main.40e4c2cd.chunk.js",
-    "main.js.map": "/holophonor/static/js/main.40e4c2cd.chunk.js.map",
+    "main.css": "/holophonor/static/css/main.4383dd35.chunk.css",
+    "main.js": "/holophonor/static/js/main.74b59a6e.chunk.js",
+    "main.js.map": "/holophonor/static/js/main.74b59a6e.chunk.js.map",
     "runtime-main.js": "/holophonor/static/js/runtime-main.a2f0e439.js",
     "runtime-main.js.map": "/holophonor/static/js/runtime-main.a2f0e439.js.map",
-    "static/js/2.f1ec7229.chunk.js": "/holophonor/static/js/2.f1ec7229.chunk.js",
-    "static/js/2.f1ec7229.chunk.js.map": "/holophonor/static/js/2.f1ec7229.chunk.js.map",
+    "static/js/2.e2561dab.chunk.js": "/holophonor/static/js/2.e2561dab.chunk.js",
+    "static/js/2.e2561dab.chunk.js.map": "/holophonor/static/js/2.e2561dab.chunk.js.map",
     "index.html": "/holophonor/index.html",
-    "static/js/2.f1ec7229.chunk.js.LICENSE.txt": "/holophonor/static/js/2.f1ec7229.chunk.js.LICENSE.txt",
+    "static/css/main.4383dd35.chunk.css.map": "/holophonor/static/css/main.4383dd35.chunk.css.map",
+    "static/js/2.e2561dab.chunk.js.LICENSE.txt": "/holophonor/static/js/2.e2561dab.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/holophonor/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a2f0e439.js",
-    "static/js/2.f1ec7229.chunk.js",
-    "static/js/main.40e4c2cd.chunk.js"
+    "static/js/2.e2561dab.chunk.js",
+    "static/css/main.4383dd35.chunk.css",
+    "static/js/main.74b59a6e.chunk.js"
   ]
 }
