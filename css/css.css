@@ -1,8 +1,7 @@
 body {
     color: white;
     background-color: grey;
-    background-image: url("/images/toby.gif");
-    /*background-image: url('5008.png');*/
+    background-image: url('5008.png');
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
